@@ -1,35 +1,7 @@
-WordPress Child Theme Development
-Project Overview
-This project involves developing a WordPress child theme based on a specified parent theme. The child theme incorporates significant modifications and customizations to cater to specific design requirements and target audience needs.
+This project involved the creation of a WordPress website aimed at serving elderly users, with a specific focus on accessibility and usability. The website was developed for the University of the Third Age (U3A) platform, which encourages lifelong learning among seniors. Using WordPress as the foundation, I developed a custom child theme to ensure that the site met the unique needs of older users.
 
-Design
-The design process includes comprehensive steps like information architecture, interface design, and information design, all tailored to meet the end goals of the WordPress site effectively.
+Key design changes included enlarging the font size for better readability and creating clear content categories to make navigation intuitive. The layout was simplified to help users easily locate information, while a high-contrast color scheme improved text visibility, ensuring the site was user-friendly for seniors.
 
-Content
-Content modifications and enhancements are made according to the provided materials, with additional content created as needed to fulfill the site's objectives. All content adheres to commercial use standards and legal requirements.
+In terms of the development process, I utilized Git for version control to track all changes and maintain an organized workflow. Docker was employed to create a local development environment that mirrored the production setup, ensuring smooth transitions between local and live environments. The website was deployed on AWS for hosting, providing a scalable and reliable solution. Additionally, I automated the deployment process using GitHub Actions, ensuring that updates were pushed from the local environment to the live site efficiently.
 
-Local Development Environment
-Environment Setup: Utilizes a Docker-based Linux environment for development.
-Configuration File: docker-compose.yml included in the repository for setting up the local development environment.
-Theme Development
-Modifications
-Details the specific changes made to the parent theme to achieve the desired look and functionality. This section guides further customization.
-
-Deployment
-Automated Workflow
-Describes the automated deployment process using GitHub Actions that triggers deployments to a production environment upon commits to the repository.
-
-Production Environment
-Hosting: The site is hosted on AWS, leveraging its capabilities to manage and scale the web application.
-Access: Detailed steps on how to access and manage the production environment.
-Additional Documentation
-Version Control: Best practices followed for using Git, with commit history reflecting meaningful updates and proper message formatting.
-Project Management: Utilization of GitHub Projects for task management and workflow visualization, ensuring a transparent development process.
-Contributing
-Guidelines for contributing to the project, including coding standards, branch naming conventions, and pull request processes.
-
-License
-
-Credits
-
-Contact Information
+Overall, this project successfully delivered a functional and accessible website for elderly users by incorporating modern development practices and accessibility-focused design adjustments. The site provides a simple, yet engaging platform that caters to the specific requirements of its target audience.
